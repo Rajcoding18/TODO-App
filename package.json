@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start" : "node Backend/app.js",
-    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
-    "start" : "node backend/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "node  backend/.js",
+  "build": "npm install && npm install --prefix ../frontend && npm run build --prefix ../frontend",
+  "test": "echo \"Error: no test specified\" && exit 1"
+}
+,
   "author": "",
   "license": "ISC",
   "description": "",
